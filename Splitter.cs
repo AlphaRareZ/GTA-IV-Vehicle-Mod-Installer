@@ -15,7 +15,7 @@ abstract class Splitter
                     list.Add(temp);
                 temp = "";
             }
-            else if (t == ' ') continue;
+            else if (t == ' ' || t == '\t') continue;
             else
             {
                 temp += t;
@@ -32,7 +32,7 @@ abstract class Splitter
         string temp = "";
         foreach (var t in s)
         {
-            if (t == ' ')
+            if (t == ' ' || t == '\t')
             {
                 if (temp != "")
                     list.Add(temp);

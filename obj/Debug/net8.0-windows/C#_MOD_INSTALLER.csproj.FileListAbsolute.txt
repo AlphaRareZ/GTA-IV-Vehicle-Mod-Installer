@@ -1,4 +1,3 @@
-D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ModInstaller.Form1.resources
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.csproj.GenerateResource.cache
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.AssemblyInfoInputs.cache
@@ -14,3 +13,6 @@ D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\refin
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.pdb
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.genruntimeconfig.cache
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ref\C#_MOD_INSTALLER.dll
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ModInstaller.ModInstaller_By_AlaaDLord.resources
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C__MOD_INSTALLER.Properties.Resources.resources
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.sourcelink.json

@@ -1,130 +1,86 @@
 using System.Runtime.CompilerServices;
+using C__MOD_INSTALLER;
 
 namespace ModInstaller;
 
-internal class Vehicle
+public class Vehicle
 {
-    internal List<String> vehicleData = null;
-    internal List<String> handlingData = null;
+    private List<String>? _vehicleData = null;
 
-    private string vehicleName;
+    private List<String>? _handlingData = null;
 
-    public Vehicle(string vehicleName)
+    private string _wftDir;
+    private string _wtdDir;
+    private string _vehicleName;
+
+    private GameData _gameData = new();
+
+    public Vehicle(string vehicleName, string handlingData, string vehicleData, string wft, string wtd)
     {
-        this.vehicleName = vehicleName;
+        _vehicleName = vehicleName;
+        if (!string.IsNullOrEmpty(handlingData))
+            _handlingData = Splitter.splitHandling(handlingData);
+        if (!string.IsNullOrEmpty(vehicleData))
+            _vehicleData = Splitter.splitVehicle(vehicleData);
+        _wftDir = wft;
+        _wtdDir = wtd;
+        ProcessHandlingAndVehicleData();
     }
 
-    public bool processHandlingAndVehicleData()
+
+    private void ProcessHandlingAndVehicleData()
     {
-        // i got vehicle data and no handling string 
-        if (vehicleData != null && handlingData == null)
-        {
-            // Model name, Txd name, Type, HandlingId, Game name,
-            vehicleData[0] = vehicleName;
-            vehicleData[1] = vehicleName;
-            vehicleData[4] = vehicleName.ToUpper();
-            return true;
-        }
+        if (_vehicleData == null && _handlingData == null) return;
 
-        else if (vehicleData == null && handlingData != null)
+        if (_vehicleData != null && _handlingData == null)
         {
-            vehicleData = Splitter.splitVehicle(ModInstaller.retrieveVehicle(handlingData[0].ToLower()));
-            vehicleData[0] = vehicleName;
-            vehicleData[1] = vehicleName;
-            vehicleData[4] = vehicleName.ToUpper();
-            handlingData[0] = vehicleName.ToUpper();
-            return true;
+            // Model name, Txd name, Type, HandlingId, Game name
+            _vehicleData[0] = _vehicleName;
+            _vehicleData[1] = _vehicleName;
+            _vehicleData[4] = _vehicleName.ToUpper();
         }
+        else if (_vehicleData != null && _handlingData != null)
+        {
+            _vehicleData[0] = _vehicleName;
+            _vehicleData[1] = _vehicleName;
+            _vehicleData[3] = _vehicleName.ToUpper();
+            _vehicleData[4] = _vehicleName.ToUpper();
 
-        else if (vehicleData != null && handlingData != null)
-        {
-            // vehicle data
-            vehicleData[0] = vehicleName;
-            vehicleData[1] = vehicleName;
-            vehicleData[3] = vehicleName.ToUpper();
-            vehicleData[4] = vehicleName.ToUpper();
-            // handling data
-            handlingData[0] = vehicleName.ToUpper();
-            return true;
+            _handlingData[0] = _vehicleName.ToUpper();
         }
-        return false;
-    }
+        else if (_vehicleData == null && _handlingData != null)
+        {
+            _vehicleData = Splitter.splitVehicle(_gameData.RetrieveVehicleFromVehiclesIde(_handlingData[0].ToLower()));
+            _vehicleData[0] = _vehicleName;
+            _vehicleData[1] = _vehicleName;
+            _vehicleData[4] = _vehicleName.ToUpper();
 
-    internal void exportVehiclesAndHandling(string dir)
-    {
-        if (!Directory.Exists(dir))
-        {
-            Directory.CreateDirectory(dir);
-        }
-
-        var vehiclesDir = dir + @"\vehicles.ide";
-        var handlingDir = dir + @"\handling.dat";
-
-        var vehicleDataExists = vehicleData != null;
-        var handlingDataExists = handlingData != null;
-
-        if (!File.Exists(vehiclesDir) && vehicleDataExists)
-        {
-            using (File.Create(vehiclesDir)){}
-        }
-
-        if (!File.Exists(handlingDir) && handlingDataExists)
-        {
-            using (File.Create(handlingDir)){}
-        }
-
-        if (handlingDataExists)
-            addDataIntoFiles(handlingData, ' ', handlingDir);
-        if (vehicleDataExists)
-            addDataIntoFiles(vehicleData, ',', vehiclesDir);
-    }
-
-    private void appendTextToFile(string path, string text)
-    {
-        try
-        {
-            // Using StreamWriter to append text to the file
-            using StreamWriter sw = new StreamWriter(path, true);
-            sw.Write(text);
-            sw.Close();
-        }
-        catch (DirectoryNotFoundException e)
-        {
-            Console.WriteLine("The directory specified could not be found:");
-            Console.WriteLine();
-        }
-        catch (UnauthorizedAccessException e)
-        {
-            Console.WriteLine("You do not have permission to write to this file:");
-            Console.WriteLine(e.Message);
-        }
-        catch (IOException e)
-        {
-            Console.WriteLine("An I/O error occurred while writing to the file:");
-            Console.WriteLine(e.Message);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine("An unexpected error occurred:");
-            Console.WriteLine(e.Message);
+            _handlingData[0] = _vehicleName.ToUpper();
         }
     }
 
-    private void addDataIntoFiles(List<String> list, char delimiter, string dir)
+    internal string GetVehicleName()
     {
-        appendTextToFile(dir, "cars\n");
-        for (int i = 0; i < list.Count; i++)
-        {
-            string data = list[i];
+        return _vehicleName;
+    }
 
-            if (i != list.Count - 1)
-            {
-                data += delimiter;
-            }
+    internal string GetWftDir()
+    {
+        return _wftDir;
+    }
 
-            appendTextToFile(dir, data);
-        }
+    internal string GetWtdDir()
+    {
+        return _wtdDir;
+    }
 
-        appendTextToFile(dir, "\nend");
+    internal List<String>? GetHandlingData()
+    {
+        return _handlingData;
+    }
+
+    internal List<String>? GetVehicleData()
+    {
+        return _vehicleData;
     }
 }
