@@ -1,0 +1,16 @@
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ModInstaller.Form1.resources
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.csproj.GenerateResource.cache
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.AssemblyInfoInputs.cache
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.AssemblyInfo.cs
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.csproj.CoreCompileInputs.cache
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\C#_MOD_INSTALLER.exe
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\C#_MOD_INSTALLER.deps.json
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\C#_MOD_INSTALLER.runtimeconfig.json
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\C#_MOD_INSTALLER.dll
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\C#_MOD_INSTALLER.pdb
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.dll
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\refint\C#_MOD_INSTALLER.dll
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.pdb
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C#_MOD_INSTALLER.genruntimeconfig.cache
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ref\C#_MOD_INSTALLER.dll

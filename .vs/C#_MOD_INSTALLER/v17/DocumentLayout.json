@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\modinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|solutionrelative:modinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|solutionrelative:splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|C#_MOD_INSTALLER.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:09:33.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA7wCwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:09:39.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:12:12.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Splitter.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Splitter.cs",
+              "RelativeDocumentMoniker": "Splitter.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Splitter.cs",
+              "RelativeToolTip": "Splitter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:12:08.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModInstaller.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\ModInstaller.cs",
+              "RelativeDocumentMoniker": "ModInstaller.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\ModInstaller.cs",
+              "RelativeToolTip": "ModInstaller.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAowEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:11:56.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:09:29.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
