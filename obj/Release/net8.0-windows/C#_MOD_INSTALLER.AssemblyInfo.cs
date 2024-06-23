@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C#_MOD_INSTALLER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9cf6ea6d3ed50ba61bef6dbebeda4f54032bad3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d94b2b126a44bf7e8795fa109e9fd7530315a1d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("C#_MOD_INSTALLER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C#_MOD_INSTALLER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

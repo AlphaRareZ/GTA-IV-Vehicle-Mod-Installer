@@ -9,19 +9,24 @@ public class Vehicle
 
     private List<String>? _handlingData = null;
 
+    private List<String>? _carcols = null;
+
     private string _wftDir;
     private string _wtdDir;
     private string _vehicleName;
 
     private GameData _gameData = new();
+    
 
-    public Vehicle(string vehicleName, string handlingData, string vehicleData, string wft, string wtd)
+    public Vehicle(string vehicleName, string handlingData, string vehicleData,string carcols ,string wft, string wtd)
     {
         _vehicleName = vehicleName;
         if (!string.IsNullOrEmpty(handlingData))
-            _handlingData = Splitter.splitHandling(handlingData);
+            _handlingData = Splitter.SplitSpace(handlingData);
         if (!string.IsNullOrEmpty(vehicleData))
-            _vehicleData = Splitter.splitVehicle(vehicleData);
+            _vehicleData = Splitter.SplitComma(vehicleData);
+        if (!string.IsNullOrEmpty(carcols))
+            _carcols = Splitter.SplitComma(carcols);
         _wftDir = wft;
         _wtdDir = wtd;
         ProcessHandlingAndVehicleData();
@@ -31,7 +36,7 @@ public class Vehicle
     private void ProcessHandlingAndVehicleData()
     {
         if (_vehicleData == null && _handlingData == null) return;
-
+        _carcols[0] = _vehicleName;
         if (_vehicleData != null && _handlingData == null)
         {
             // Model name, Txd name, Type, HandlingId, Game name
@@ -50,7 +55,7 @@ public class Vehicle
         }
         else if (_vehicleData == null && _handlingData != null)
         {
-            _vehicleData = Splitter.splitVehicle(_gameData.RetrieveVehicleFromVehiclesIde(_handlingData[0].ToLower()));
+            _vehicleData = Splitter.SplitSpace(_gameData.RetrieveVehicleFromVehiclesIde(_handlingData[0].ToLower()));
             _vehicleData[0] = _vehicleName;
             _vehicleData[1] = _vehicleName;
             _vehicleData[4] = _vehicleName.ToUpper();
@@ -82,5 +87,10 @@ public class Vehicle
     internal List<String>? GetVehicleData()
     {
         return _vehicleData;
+    }
+
+    internal List<String>? getCarcolsData()
+    {
+        return _carcols;
     }
 }

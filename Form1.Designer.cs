@@ -46,6 +46,8 @@
             textBox6 = new TextBox();
             label5 = new Label();
             button4 = new Button();
+            label6 = new Label();
+            textBox7 = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -112,7 +114,7 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(116, 268);
+            textBox4.Location = new Point(116, 258);
             textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(558, 27);
@@ -121,7 +123,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(-2, 268);
+            label3.Location = new Point(-2, 261);
             label3.Name = "label3";
             label3.Size = new Size(92, 20);
             label3.TabIndex = 15;
@@ -129,7 +131,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(685, 321);
+            button2.Location = new Point(685, 343);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(84, 28);
@@ -140,7 +142,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(116, 321);
+            textBox5.Location = new Point(116, 344);
             textBox5.Margin = new Padding(3, 4, 3, 4);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(558, 27);
@@ -149,7 +151,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(-2, 321);
+            label4.Location = new Point(-2, 343);
             label4.Name = "label4";
             label4.Size = new Size(101, 20);
             label4.TabIndex = 18;
@@ -157,7 +159,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(685, 372);
+            button3.Location = new Point(685, 394);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(84, 28);
@@ -168,7 +170,7 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(116, 372);
+            textBox6.Location = new Point(116, 394);
             textBox6.Margin = new Padding(3, 4, 3, 4);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(558, 27);
@@ -177,7 +179,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(-2, 372);
+            label5.Location = new Point(-2, 394);
             label5.Name = "label5";
             label5.Size = new Size(105, 20);
             label5.TabIndex = 21;
@@ -194,6 +196,23 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(-2, 299);
+            label6.Name = "label6";
+            label6.Size = new Size(93, 20);
+            label6.TabIndex = 24;
+            label6.Text = "Carcols Data";
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(116, 299);
+            textBox7.Margin = new Padding(3, 4, 3, 4);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(558, 27);
+            textBox7.TabIndex = 23;
+            // 
             // ModInstaller_By_AlaaDLord
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -201,6 +220,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 562);
+            Controls.Add(label6);
+            Controls.Add(textBox7);
             Controls.Add(button4);
             Controls.Add(label5);
             Controls.Add(textBox6);
@@ -245,6 +266,8 @@
         private TextBox textBox6;
         private Label label5;
         private Button button4;
+        private Label label6;
+        private TextBox textBox7;
     }
 }
 

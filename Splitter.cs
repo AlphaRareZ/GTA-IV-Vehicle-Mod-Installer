@@ -2,7 +2,7 @@ namespace ModInstaller;
 
 abstract class Splitter
 {
-    public static List<string> splitVehicle(string? s)
+    public static List<string> SplitComma(string? s)
     {
         List<String> list = new List<string>();
         s += ',';
@@ -25,7 +25,7 @@ abstract class Splitter
         return list;
     }
 
-    public static List<string> splitHandling(string? s)
+    public static List<string> SplitSpace(string? s)
     {
         List<String> list = new List<string>();
         s += ',';

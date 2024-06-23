@@ -32,7 +32,8 @@ namespace ModInstaller
         {
             bool handling = File.Exists(Path.Combine(location, @"common\data\handling.dat"));
             bool vehicles = File.Exists(Path.Combine(location, @"common\data\vehicles.ide"));
-            return handling && vehicles;
+            bool carcols = File.Exists(Path.Combine(location, @"common\data\carcols.dat"));
+            return handling && vehicles&& carcols;
         }
 
        

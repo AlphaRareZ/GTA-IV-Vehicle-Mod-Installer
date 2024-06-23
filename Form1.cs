@@ -43,7 +43,7 @@ namespace ModInstaller
                 return;
             }
             
-            Vehicle vehicle = new Vehicle(textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text);
+            Vehicle vehicle = new Vehicle(textBox2.Text, textBox3.Text, textBox4.Text,textBox7.Text, textBox5.Text, textBox6.Text);
             bool installed = modInstaller.Install(vehicle);
 
             if (installed)

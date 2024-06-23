@@ -19,9 +19,11 @@ public class DataExporter
 
         var vehiclesIdeDir = vehicleDirInModLoader + @"\vehicles.ide";
         var handlingDatDir = vehicleDirInModLoader + @"\handling.dat";
+        var carcolsDatDir = vehicleDirInModLoader + @"\carcols.dat";
 
         var vehicleDataExists = vehicle.GetVehicleData() != null;
         var handlingDataExists = vehicle.GetHandlingData() != null;
+        var carcolsDataExists = vehicle.getCarcolsData() != null;
 
         if (!File.Exists(vehiclesIdeDir) && vehicleDataExists)
         {
@@ -35,12 +37,19 @@ public class DataExporter
             using (File.Create(handlingDatDir))
             {
             }
+        }if (!File.Exists(carcolsDatDir) && carcolsDataExists)
+        {
+            using (File.Create(carcolsDatDir))
+            {
+            }
         }
 
         if (handlingDataExists)
-            AddDataIntoFiles(vehicle.GetHandlingData(), ' ', handlingDatDir);
+            AddDataIntoFiles(vehicle.GetHandlingData(), ' ', handlingDatDir,"cars\n");
         if (vehicleDataExists)
-            AddDataIntoFiles(vehicle.GetVehicleData(), ',', vehiclesIdeDir);
+            AddDataIntoFiles(vehicle.GetVehicleData(), ',', vehiclesIdeDir, "cars\n");
+        if (carcolsDataExists)
+            AddDataIntoFiles(vehicle.getCarcolsData(), ',', carcolsDatDir, "cars3\n");
     }
 
     private void AppendTextToFile(string path, string text)
@@ -58,9 +67,9 @@ public class DataExporter
         }
     }
 
-    private void AddDataIntoFiles(List<string>? list, char delimiter, string dir)
+    private void AddDataIntoFiles(List<string>? list, char delimiter, string dir,string tag)
     {
-        AppendTextToFile(dir, "cars\n");
+        AppendTextToFile(dir, tag);
         for (int i = 0; i < list.Count; i++)
         {
             string data = list[i];
