@@ -2,7 +2,7 @@ namespace ModInstaller;
 
 public class GameData
 {
-    public string RetrieveVehicleFromVehiclesIde(string vehicleName)
+    public string RetrieveVehicleData(string vehicleName)
     {
         try
         {

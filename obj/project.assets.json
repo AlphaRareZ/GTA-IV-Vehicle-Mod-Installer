@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\C#_MOD_INSTALLER.csproj",
-      "projectName": "C#_MOD_INSTALLER",
-      "projectPath": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\C#_MOD_INSTALLER.csproj",
+      "projectUniqueName": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\IV_Mod_Installer.csproj",
+      "projectName": "IV_Mod_Installer",
+      "projectPath": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\IV_Mod_Installer.csproj",
       "packagesPath": "C:\\Users\\Muhammed Alaa Eddin\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\obj\\",
       "projectStyle": "PackageReference",

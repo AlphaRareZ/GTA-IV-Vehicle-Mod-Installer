@@ -42,18 +42,28 @@ namespace ModInstaller
                 MessageBox.Show("Invalid Directory May Cause Game Files Corruption!");
                 return;
             }
-            
-            Vehicle vehicle = new Vehicle(textBox2.Text, textBox3.Text, textBox4.Text,textBox7.Text, textBox5.Text, textBox6.Text);
-            bool installed = modInstaller.Install(vehicle);
 
-            if (installed)
-            {
-                MessageBox.Show("Mod Installed Successfully");
-            }
-            else
-            {
-                MessageBox.Show("Something Went Wrong!");
-            }
+            Vehicle vehicle = new Vehicle(
+                textBox2.Text,
+                textBox3.Text,
+                textBox4.Text,
+                textBox7.Text,
+                textBox5.Text,
+                textBox6.Text,
+                checkBox2.Checked == false
+            );
+            var installed = modInstaller.Install(vehicle);
+            MessageBox.Show(installed ? "Mod Installed Successfully" : "Something Went Wrong!");
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e) //cars3
+        {
+            checkBox2.Enabled = !checkBox2.Enabled;
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e) //cars4
+        {
+            checkBox1.Enabled = !checkBox1.Enabled;
         }
     }
 }

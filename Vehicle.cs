@@ -10,15 +10,14 @@ public class Vehicle
     private List<String>? _handlingData = null;
 
     private List<String>? _carcols = null;
-
     private string _wftDir;
     private string _wtdDir;
     private string _vehicleName;
-
+    private bool cars3 = true;
     private GameData _gameData = new();
     
 
-    public Vehicle(string vehicleName, string handlingData, string vehicleData,string carcols ,string wft, string wtd)
+    public Vehicle(string vehicleName, string handlingData, string vehicleData,string carcols ,string wft, string wtd,bool cars3)
     {
         _vehicleName = vehicleName;
         if (!string.IsNullOrEmpty(handlingData))
@@ -29,6 +28,7 @@ public class Vehicle
             _carcols = Splitter.SplitComma(carcols);
         _wftDir = wft;
         _wtdDir = wtd;
+        this.cars3 = cars3;
         ProcessHandlingAndVehicleData();
     }
 
@@ -55,7 +55,7 @@ public class Vehicle
         }
         else if (_vehicleData == null && _handlingData != null)
         {
-            _vehicleData = Splitter.SplitSpace(_gameData.RetrieveVehicleFromVehiclesIde(_handlingData[0].ToLower()));
+            _vehicleData = Splitter.SplitSpace(_gameData.RetrieveVehicleData(_handlingData[0].ToLower()));
             _vehicleData[0] = _vehicleName;
             _vehicleData[1] = _vehicleName;
             _vehicleData[4] = _vehicleName.ToUpper();
@@ -92,5 +92,8 @@ public class Vehicle
     internal List<String>? getCarcolsData()
     {
         return _carcols;
+    }internal bool getCars3()
+    {
+        return cars3;
     }
 }

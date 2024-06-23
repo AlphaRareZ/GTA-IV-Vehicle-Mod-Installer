@@ -48,6 +48,8 @@
             button4 = new Button();
             label6 = new Label();
             textBox7 = new TextBox();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
             SuspendLayout();
             // 
             // button1
@@ -131,7 +133,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(685, 343);
+            button2.Location = new Point(685, 369);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(84, 28);
@@ -142,7 +144,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(116, 344);
+            textBox5.Location = new Point(116, 370);
             textBox5.Margin = new Padding(3, 4, 3, 4);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(558, 27);
@@ -151,7 +153,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(-2, 343);
+            label4.Location = new Point(-2, 369);
             label4.Name = "label4";
             label4.Size = new Size(101, 20);
             label4.TabIndex = 18;
@@ -159,7 +161,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(685, 394);
+            button3.Location = new Point(685, 420);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(84, 28);
@@ -170,7 +172,7 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(116, 394);
+            textBox6.Location = new Point(116, 420);
             textBox6.Margin = new Padding(3, 4, 3, 4);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(558, 27);
@@ -179,7 +181,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(-2, 394);
+            label5.Location = new Point(-2, 420);
             label5.Name = "label5";
             label5.Size = new Size(105, 20);
             label5.TabIndex = 21;
@@ -187,7 +189,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(320, 435);
+            button4.Location = new Point(318, 491);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(140, 58);
@@ -199,7 +201,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(-2, 299);
+            label6.Location = new Point(-2, 314);
             label6.Name = "label6";
             label6.Size = new Size(93, 20);
             label6.TabIndex = 24;
@@ -207,11 +209,33 @@
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(116, 299);
+            textBox7.Location = new Point(116, 314);
             textBox7.Margin = new Padding(3, 4, 3, 4);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(558, 27);
             textBox7.TabIndex = 23;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(680, 295);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(65, 24);
+            checkBox1.TabIndex = 25;
+            checkBox1.Text = "cars3";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(680, 325);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(65, 24);
+            checkBox2.TabIndex = 26;
+            checkBox2.Text = "cars4";
+            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // ModInstaller_By_AlaaDLord
             // 
@@ -220,6 +244,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 562);
+            Controls.Add(checkBox2);
+            Controls.Add(checkBox1);
             Controls.Add(label6);
             Controls.Add(textBox7);
             Controls.Add(button4);
@@ -268,6 +294,8 @@
         private Button button4;
         private Label label6;
         private TextBox textBox7;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
     }
 }
 

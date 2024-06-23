@@ -2,8 +2,8 @@ namespace ModInstaller
 {
     public class ModInstaller
     {
-        private static string? _gameDirectory = null;
-        private DataExporter _dataExporter = new();
+        private static string? _gameDirectory;
+        private readonly DataExporter _dataExporter = new();
         
         public bool SetGameDir(string directory)
         {
@@ -28,7 +28,7 @@ namespace ModInstaller
         }
 
 
-        public bool ValidDirectory(string location)
+        private bool ValidDirectory(string location)
         {
             bool handling = File.Exists(Path.Combine(location, @"common\data\handling.dat"));
             bool vehicles = File.Exists(Path.Combine(location, @"common\data\vehicles.ide"));

@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "C#_MOD_INSTALLER/1.0.0": {
+      "IV_Mod_Installer/1.0.0": {
         "runtime": {
-          "C#_MOD_INSTALLER.dll": {}
+          "IV_Mod_Installer.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "C#_MOD_INSTALLER/1.0.0": {
+    "IV_Mod_Installer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

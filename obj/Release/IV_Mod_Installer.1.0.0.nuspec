@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IV_Mod_Installer</id>
+    <version>1.0.0</version>
+    <authors>IV_Mod_Installer</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="c178ac67461416ea1b2c56e9ae883cd331ba36fa" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Release\net8.0-windows\IV_Mod_Installer.runtimeconfig.json" target="lib\net8.0-windows7.0\IV_Mod_Installer.runtimeconfig.json" />
+    <file src="D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Release\net8.0-windows\IV_Mod_Installer.dll" target="lib\net8.0-windows7.0\IV_Mod_Installer.dll" />
+  </files>
+</package>
