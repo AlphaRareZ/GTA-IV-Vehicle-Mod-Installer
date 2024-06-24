@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C__MOD_INSTALLER
+namespace C__MOD_INSTALLER.Model
 {
     internal interface IExporter
     {
-        public void Export();
+        public bool Export();
     }
 }

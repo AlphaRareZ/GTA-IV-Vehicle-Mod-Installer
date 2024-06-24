@@ -3,7 +3,6 @@ D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\IV_Mo
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\IV_Mod_Installer.runtimeconfig.json
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\IV_Mod_Installer.dll
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\bin\Debug\net8.0-windows\IV_Mod_Installer.pdb
-D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ModInstaller.ModInstaller_By_AlaaDLord.resources
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\C__MOD_INSTALLER.Properties.Resources.resources
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\IV_Mod_Installer.csproj.GenerateResource.cache
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\IV_Mod_Installer.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,4 @@ D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\refin
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\IV_Mod_Installer.pdb
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\IV_Mod_Installer.genruntimeconfig.cache
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ref\IV_Mod_Installer.dll
+D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Debug\net8.0-windows\ModInstaller.ModInstallerByAlaaDLord.resources

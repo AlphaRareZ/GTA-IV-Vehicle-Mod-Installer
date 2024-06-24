@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\vehicledataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\vehicledataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\texturesexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\texturesexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\handlingdataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\handlingdataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\carcolsdataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\carcolsdataexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\modinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\modinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\modexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\modexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\model\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:model\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\projects\\c#\\gtamodloaderforms\\c#_mod_installer\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +70,170 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarcolsDataExporter.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\CarcolsDataExporter.cs",
+              "RelativeDocumentMoniker": "Model\\CarcolsDataExporter.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\CarcolsDataExporter.cs",
+              "RelativeToolTip": "Model\\CarcolsDataExporter.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:00:57.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Model\\Vehicle.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\Vehicle.cs",
+              "RelativeToolTip": "Model\\Vehicle.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:57:05.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TexturesExporter.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\TexturesExporter.cs",
+              "RelativeDocumentMoniker": "Model\\TexturesExporter.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\TexturesExporter.cs",
+              "RelativeToolTip": "Model\\TexturesExporter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:43:30.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Controller\\Controller.cs",
+              "RelativeDocumentMoniker": "Controller\\Controller.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Controller\\Controller.cs",
+              "RelativeToolTip": "Controller\\Controller.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:23:28.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HandlingDataExporter.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\HandlingDataExporter.cs",
+              "RelativeDocumentMoniker": "Model\\HandlingDataExporter.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\HandlingDataExporter.cs",
+              "RelativeToolTip": "Model\\HandlingDataExporter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:38:14.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleDataExporter.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\VehicleDataExporter.cs",
+              "RelativeDocumentMoniker": "Model\\VehicleDataExporter.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\VehicleDataExporter.cs",
+              "RelativeToolTip": "Model\\VehicleDataExporter.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:41:55.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "View\\Form1.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\View\\Form1.cs [Design]",
+              "RelativeToolTip": "View\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:17:54.119Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModInstaller.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\ModInstaller.cs",
+              "RelativeDocumentMoniker": "Model\\ModInstaller.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\ModInstaller.cs",
+              "RelativeToolTip": "Model\\ModInstaller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:02:04.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Splitter.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\Splitter.cs",
+              "RelativeDocumentMoniker": "Model\\Splitter.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\Splitter.cs",
+              "RelativeToolTip": "Model\\Splitter.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:02:19.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ModExporter.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\ModExporter.cs",
+              "RelativeDocumentMoniker": "Model\\ModExporter.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\ModExporter.cs",
+              "RelativeToolTip": "Model\\ModExporter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:39:00.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "GameData.cs",
-              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\GameData.cs",
-              "RelativeDocumentMoniker": "GameData.cs",
-              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\GameData.cs",
-              "RelativeToolTip": "GameData.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\GameData.cs",
+              "RelativeDocumentMoniker": "Model\\GameData.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\Model\\GameData.cs",
+              "RelativeToolTip": "Model\\GameData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:09:26.547Z",
+              "WhenOpened": "2024-06-24T00:01:25.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\View\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "View\\Form1.Designer.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\View\\Form1.Designer.cs",
+              "RelativeToolTip": "View\\Form1.Designer.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAASwO8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:34:18.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "View\\Form1.cs",
+              "ToolTip": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\View\\Form1.cs",
+              "RelativeToolTip": "View\\Form1.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:18:04.58Z",
               "EditorCaption": ""
             }
           ]

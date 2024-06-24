@@ -1,12 +1,12 @@
-using ModInstaller;
+using System.Security.Cryptography.X509Certificates;
+using System.Windows.Input;
 
-namespace C__MOD_INSTALLER
+namespace C__MOD_INSTALLER.Model
 {
     internal class CarcolsDataExporter(Vehicle vehicle, string modLoaderDir) : IExporter
     {
-        public void Export()
+        public bool Export()
         {
-            
             var carcolsDatDir = modLoaderDir + @"\carcols.dat";
 
             var carcolsDataExists = vehicle.getCarcolsData() != null;
@@ -19,10 +19,10 @@ namespace C__MOD_INSTALLER
                 }
             }
 
-            if (carcolsDataExists)
-                DataExporter.AddDataIntoFiles(vehicle.getCarcolsData(), ',', carcolsDatDir, vehicle.getCars3()?"cars3\n":"cars4\n");
-            
-            
+            if (!carcolsDataExists) return false;
+            ModExporter.AddDataIntoFiles(vehicle.getCarcolsData(), ',', carcolsDatDir,
+                vehicle.getCars3() ? "cars3\n" : "cars4\n");
+            return true;
         }
     }
 }

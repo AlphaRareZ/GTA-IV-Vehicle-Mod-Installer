@@ -1,34 +1,39 @@
 using System.Runtime.CompilerServices;
 using C__MOD_INSTALLER;
 
-namespace ModInstaller;
+namespace C__MOD_INSTALLER.Model;
 
 public class Vehicle
 {
-    private List<String>? _vehicleData = null;
+    private List<string>? _vehicleData = null;
 
-    private List<String>? _handlingData = null;
+    private List<string>? _handlingData = null;
 
-    private List<String>? _carcols = null;
+    private List<string>? _carcols = null;
     private string _wftDir;
     private string _wtdDir;
     private string _vehicleName;
     private bool cars3 = true;
     private GameData _gameData = new();
-    
 
-    public Vehicle(string vehicleName, string handlingData, string vehicleData,string carcols ,string wft, string wtd,bool cars3)
+
+    public Vehicle(string vehicleName, string handlingData, string vehicleData, string carcols, string wft, string wtd, bool cars3)
     {
-        _vehicleName = vehicleName;
+        
+
         if (!string.IsNullOrEmpty(handlingData))
             _handlingData = Splitter.SplitSpace(handlingData);
+
         if (!string.IsNullOrEmpty(vehicleData))
             _vehicleData = Splitter.SplitComma(vehicleData);
+
         if (!string.IsNullOrEmpty(carcols))
             _carcols = Splitter.SplitComma(carcols);
+        _vehicleName = vehicleName;
         _wftDir = wft;
         _wtdDir = wtd;
         this.cars3 = cars3;
+
         ProcessHandlingAndVehicleData();
     }
 
@@ -36,7 +41,10 @@ public class Vehicle
     private void ProcessHandlingAndVehicleData()
     {
         if (_vehicleData == null && _handlingData == null) return;
-        _carcols[0] = _vehicleName;
+
+        if (_carcols != null)
+            _carcols[0] = _vehicleName;
+
         if (_vehicleData != null && _handlingData == null)
         {
             // Model name, Txd name, Type, HandlingId, Game name
@@ -79,20 +87,21 @@ public class Vehicle
         return _wtdDir;
     }
 
-    internal List<String>? GetHandlingData()
+    internal List<string>? GetHandlingData()
     {
         return _handlingData;
     }
 
-    internal List<String>? GetVehicleData()
+    internal List<string>? GetVehicleData()
     {
         return _vehicleData;
     }
 
-    internal List<String>? getCarcolsData()
+    internal List<string>? getCarcolsData()
     {
         return _carcols;
-    }internal bool getCars3()
+    }
+    internal bool getCars3()
     {
         return cars3;
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IV_Mod_Installer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c178ac67461416ea1b2c56e9ae883cd331ba36fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a9d66de35cd822c49f4c1926b1507e7db702db")]
 [assembly: System.Reflection.AssemblyProductAttribute("IV_Mod_Installer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IV_Mod_Installer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

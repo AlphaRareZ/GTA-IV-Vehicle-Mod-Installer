@@ -1,13 +1,13 @@
-using ModInstaller;
-
-namespace C__MOD_INSTALLER
+namespace C__MOD_INSTALLER.Model
 {
     internal class HandlingDataExporter(Vehicle vehicle, string modLoaderDir) : IExporter
     {
-        public void Export()
+        public bool Export()
         {
-            var handlingDatDir = modLoaderDir + @"\handling.dat";
             var handlingDataExists = vehicle.GetHandlingData() != null;
+            if (!handlingDataExists) return false;
+
+            var handlingDatDir = modLoaderDir + @"\handling.dat";
             if (!File.Exists(handlingDatDir) && handlingDataExists)
             {
                 using (File.Create(handlingDatDir))
@@ -15,8 +15,9 @@ namespace C__MOD_INSTALLER
                 }
             }
 
-            if (handlingDataExists)
-                DataExporter.AddDataIntoFiles(vehicle.GetHandlingData(), ' ', handlingDatDir, "cars\n");
+
+            ModExporter.AddDataIntoFiles(vehicle.GetHandlingData(), ' ', handlingDatDir, "cars\n");
+            return true;
         }
     }
 }

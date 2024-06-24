@@ -1,10 +1,10 @@
-namespace ModInstaller;
+namespace C__MOD_INSTALLER.Model;
 
 abstract class Splitter
 {
     public static List<string> SplitComma(string? s)
     {
-        List<String> list = new List<string>();
+        List<string> list = new List<string>();
         s += ',';
         string temp = "";
         foreach (var t in s)
@@ -27,7 +27,7 @@ abstract class Splitter
 
     public static List<string> SplitSpace(string? s)
     {
-        List<String> list = new List<string>();
+        List<string> list = new List<string>();
         s += ',';
         string temp = "";
         foreach (var t in s)

@@ -1,4 +1,4 @@
-namespace ModInstaller;
+namespace C__MOD_INSTALLER.Model;
 
 public class GameData
 {
@@ -21,6 +21,6 @@ public class GameData
             Console.WriteLine(e.Message);
         }
 
-        return String.Empty;
+        return string.Empty;
     }
 }
