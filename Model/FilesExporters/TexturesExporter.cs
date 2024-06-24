@@ -1,4 +1,4 @@
-namespace C__MOD_INSTALLER.Model
+namespace C__MOD_INSTALLER.Model.FilesExporters
 {
     internal class TexturesExporter(Vehicle vehicle, string modLoaderDir) : IExporter
     {
@@ -14,9 +14,11 @@ namespace C__MOD_INSTALLER.Model
                 Console.WriteLine(e.Message);
                 return false;
             }
+
             return true;
         }
-        public bool canExport()
+
+        public bool CanExport()
         {
             return File.Exists(vehicle.GetWftDir()) && File.Exists(vehicle.GetWtdDir());
         }

@@ -1,4 +1,4 @@
-namespace C__MOD_INSTALLER.Model
+namespace C__MOD_INSTALLER.Model.FilesExporters
 {
     internal class HandlingDataExporter(Vehicle vehicle, string modLoaderDir) : IExporter
     {
@@ -12,9 +12,9 @@ namespace C__MOD_INSTALLER.Model
             {
                 using (File.Create(handlingDatDir))
                 {
+                    // nothing
                 }
             }
-
 
             ModExporter.AddDataIntoFiles(vehicle.GetHandlingData(), ' ', handlingDatDir, "cars\n");
             return true;

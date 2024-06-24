@@ -1,4 +1,4 @@
-namespace C__MOD_INSTALLER.Model;
+namespace C__MOD_INSTALLER.Model.FilesExporters;
 
 public class ModExporter
 {
@@ -11,7 +11,7 @@ public class ModExporter
         IExporter handlingDataExporter = new HandlingDataExporter(vehicle, vehicleDirInModLoader);
         IExporter carColsExporter = new CarcolsDataExporter(vehicle, vehicleDirInModLoader);
 
-        if (!(texturesExporter.canExport() && vehicleDataExporter.canExport())) return false;
+        if (!(texturesExporter.CanExport() && vehicleDataExporter.CanExport())) return false;
 
         if (!Directory.Exists(vehicleDirInModLoader))
         {
@@ -24,12 +24,12 @@ public class ModExporter
             MessageBox.Show("Couldn't Export Vehicle Data\nMod Will Not Work.");
             return false;
         }
+
         if (!texturesExporter.Export())
         {
             MessageBox.Show("Couldn't Export Textures\nMod Will Not Work.");
             return false;
         }
-
 
 
         if (!handlingDataExporter.Export())

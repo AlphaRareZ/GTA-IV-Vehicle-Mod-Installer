@@ -1,3 +1,5 @@
+using C__MOD_INSTALLER.Model.FilesExporters;
+
 namespace C__MOD_INSTALLER.Model
 {
     public class ModInstaller
@@ -19,6 +21,7 @@ namespace C__MOD_INSTALLER.Model
             bool carcols = File.Exists(Path.Combine(location, @"common\data\carcols.dat"));
             return handling && vehicles && carcols;
         }
+
         public bool SetGameDir(string directory)
         {
             if (ValidDirectory(directory))
@@ -34,6 +37,5 @@ namespace C__MOD_INSTALLER.Model
         {
             return _gameDirectory!;
         }
-
     }
 }

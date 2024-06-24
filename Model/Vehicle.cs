@@ -10,6 +10,7 @@ public class Vehicle
     private List<string>? _handlingData = null;
 
     private List<string>? _carcols = null;
+
     private string _wftDir;
     private string _wtdDir;
     private string _vehicleName;
@@ -17,10 +18,9 @@ public class Vehicle
     private GameData _gameData = new();
 
 
-    public Vehicle(string vehicleName, string handlingData, string vehicleData, string carcols, string wft, string wtd, bool cars3)
+    public Vehicle(string vehicleName, string handlingData, string vehicleData, string carcols, string wft, string wtd,
+        bool cars3)
     {
-        
-
         if (!string.IsNullOrEmpty(handlingData))
             _handlingData = Splitter.SplitSpace(handlingData);
 
@@ -101,6 +101,7 @@ public class Vehicle
     {
         return _carcols;
     }
+
     internal bool getCars3()
     {
         return cars3;
