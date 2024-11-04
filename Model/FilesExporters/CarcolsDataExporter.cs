@@ -20,5 +20,10 @@ namespace C__MOD_INSTALLER.Model.FilesExporters
             ModExporter.AddDataIntoFiles(vehicle.getCarcolsData(), ',', carcolsDatDir, tag);
             return true;
         }
+
+        public bool CanExport()
+        {
+            return vehicle.getCarcolsData() != null;
+        }
     }
 }

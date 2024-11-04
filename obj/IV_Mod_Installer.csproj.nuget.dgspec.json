@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\IV_Mod_Installer.csproj": {}
+    "D:\\Career\\My GitHub\\GTA-IV-Vehicle-Mod-Installer\\IV_Mod_Installer.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\IV_Mod_Installer.csproj": {
+    "D:\\Career\\My GitHub\\GTA-IV-Vehicle-Mod-Installer\\IV_Mod_Installer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\IV_Mod_Installer.csproj",
+        "projectUniqueName": "D:\\Career\\My GitHub\\GTA-IV-Vehicle-Mod-Installer\\IV_Mod_Installer.csproj",
         "projectName": "IV_Mod_Installer",
-        "projectPath": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\IV_Mod_Installer.csproj",
-        "packagesPath": "C:\\Users\\Muhammed Alaa Eddin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C#\\GTAModLoaderForms\\C#_MOD_INSTALLER\\obj\\",
+        "projectPath": "D:\\Career\\My GitHub\\GTA-IV-Vehicle-Mod-Installer\\IV_Mod_Installer.csproj",
+        "packagesPath": "C:\\Users\\dodo1\\.nuget\\packages\\",
+        "outputPath": "D:\\Career\\My GitHub\\GTA-IV-Vehicle-Mod-Installer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Muhammed Alaa Eddin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dodo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

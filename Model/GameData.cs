@@ -6,8 +6,7 @@ public class GameData
     {
         try
         {
-            using StreamReader sr =
-                new StreamReader(Path.Combine(ModInstaller.GetGameDir(), @"common\data\vehicles.ide"));
+            using StreamReader sr = new(Path.Combine(ModInstaller.GetGameDir(), @"common\data\vehicles.ide"));
             while (sr.ReadLine()! is { } line)
             {
                 if (line.StartsWith(vehicleName))

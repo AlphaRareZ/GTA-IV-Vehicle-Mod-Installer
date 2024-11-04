@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = C__MOD_INSTALLER
-build_property.ProjectDir = D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\
+build_property.ProjectDir = D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

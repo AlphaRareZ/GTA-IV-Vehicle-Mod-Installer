@@ -1,7 +1,9 @@
 ﻿namespace C__MOD_INSTALLER.Model.FilesExporters
 {
-    internal interface IExporter
+    public interface IExporter
     {
+        
         public bool Export();
+        public bool CanExport();
     }
 }

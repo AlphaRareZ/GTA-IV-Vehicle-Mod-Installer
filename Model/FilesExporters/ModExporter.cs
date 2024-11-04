@@ -6,8 +6,8 @@ public class ModExporter
     {
         var vehicleDirInModLoader = Path.Combine(ModInstaller.GetGameDir(), "modloader", vehicle.GetVehicleName());
 
-        TexturesExporter texturesExporter = new TexturesExporter(vehicle, vehicleDirInModLoader);
-        VehicleDataExporter vehicleDataExporter = new VehicleDataExporter(vehicle, vehicleDirInModLoader);
+        IExporter texturesExporter = new TexturesExporter(vehicle, vehicleDirInModLoader);
+        IExporter vehicleDataExporter = new VehicleDataExporter(vehicle, vehicleDirInModLoader);
         IExporter handlingDataExporter = new HandlingDataExporter(vehicle, vehicleDirInModLoader);
         IExporter carColsExporter = new CarcolsDataExporter(vehicle, vehicleDirInModLoader);
 

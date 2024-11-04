@@ -19,5 +19,10 @@ namespace C__MOD_INSTALLER.Model.FilesExporters
             ModExporter.AddDataIntoFiles(vehicle.GetHandlingData(), ' ', handlingDatDir, "cars\n");
             return true;
         }
+
+        public bool CanExport()
+        {
+            return vehicle.GetHandlingData() != null;
+        }
     }
 }
