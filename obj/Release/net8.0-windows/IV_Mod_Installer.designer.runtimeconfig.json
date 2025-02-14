@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Muhammed Alaa Eddin\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Muhammed Alaa Eddin\\.nuget\\packages"
+      "C:\\Users\\dodo1\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dodo1\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

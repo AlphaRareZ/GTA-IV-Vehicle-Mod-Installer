@@ -54,10 +54,9 @@
             // 
             // selectDir
             // 
-            selectDir.Location = new Point(680, 115);
-            selectDir.Margin = new Padding(3, 4, 3, 4);
+            selectDir.Location = new Point(595, 86);
             selectDir.Name = "selectDir";
-            selectDir.Size = new Size(89, 28);
+            selectDir.Size = new Size(78, 21);
             selectDir.TabIndex = 0;
             selectDir.Text = "Select";
             selectDir.UseVisualStyleBackColor = true;
@@ -65,79 +64,74 @@
             // 
             // gameDirTxt
             // 
-            gameDirTxt.Location = new Point(116, 115);
-            gameDirTxt.Margin = new Padding(3, 4, 3, 4);
+            gameDirTxt.Location = new Point(102, 86);
             gameDirTxt.Name = "gameDirTxt";
-            gameDirTxt.Size = new Size(558, 27);
+            gameDirTxt.Size = new Size(489, 23);
             gameDirTxt.TabIndex = 3;
-            gameDirTxt.TextChanged += textBox1_TextChanged;
+            gameDirTxt.TextChanged += gameDirTxt_TextChanged;
             // 
             // gameDir
             // 
             gameDir.AutoSize = true;
-            gameDir.Location = new Point(-2, 115);
+            gameDir.Location = new Point(-2, 86);
             gameDir.Name = "gameDir";
-            gameDir.Size = new Size(114, 20);
+            gameDir.Size = new Size(89, 15);
             gameDir.TabIndex = 6;
             gameDir.Text = "GTAIV Directory";
             // 
             // vehicleNameTxt
             // 
-            vehicleNameTxt.Location = new Point(116, 165);
-            vehicleNameTxt.Margin = new Padding(3, 4, 3, 4);
+            vehicleNameTxt.Location = new Point(102, 124);
             vehicleNameTxt.Name = "vehicleNameTxt";
-            vehicleNameTxt.Size = new Size(558, 27);
+            vehicleNameTxt.Size = new Size(489, 23);
             vehicleNameTxt.TabIndex = 8;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(-2, 165);
+            label1.Location = new Point(-2, 124);
             label1.Name = "label1";
-            label1.Size = new Size(100, 20);
+            label1.Size = new Size(79, 15);
             label1.TabIndex = 9;
             label1.Text = "Vehicle Name";
             // 
             // handlingTxt
             // 
-            handlingTxt.Location = new Point(116, 215);
-            handlingTxt.Margin = new Padding(3, 4, 3, 4);
+            handlingTxt.Location = new Point(102, 161);
             handlingTxt.Name = "handlingTxt";
-            handlingTxt.Size = new Size(558, 27);
+            handlingTxt.Size = new Size(489, 23);
             handlingTxt.TabIndex = 11;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(-2, 215);
+            label2.Location = new Point(-2, 161);
             label2.Name = "label2";
-            label2.Size = new Size(106, 20);
+            label2.Size = new Size(83, 15);
             label2.TabIndex = 12;
             label2.Text = "Handling Data";
             // 
             // vehicleDataTxt
             // 
-            vehicleDataTxt.Location = new Point(116, 258);
-            vehicleDataTxt.Margin = new Padding(3, 4, 3, 4);
+            vehicleDataTxt.Location = new Point(102, 194);
             vehicleDataTxt.Name = "vehicleDataTxt";
-            vehicleDataTxt.Size = new Size(558, 27);
+            vehicleDataTxt.Size = new Size(489, 23);
             vehicleDataTxt.TabIndex = 14;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(-2, 261);
+            label3.Location = new Point(-2, 196);
             label3.Name = "label3";
-            label3.Size = new Size(92, 20);
+            label3.Size = new Size(71, 15);
             label3.TabIndex = 15;
             label3.Text = "Vehicle Data";
             // 
             // selectWft
             // 
-            selectWft.Location = new Point(685, 369);
-            selectWft.Margin = new Padding(3, 4, 3, 4);
+            selectWft.Location = new Point(599, 277);
             selectWft.Name = "selectWft";
-            selectWft.Size = new Size(84, 28);
+            selectWft.Size = new Size(74, 21);
             selectWft.TabIndex = 16;
             selectWft.Text = "Select";
             selectWft.UseVisualStyleBackColor = true;
@@ -145,27 +139,25 @@
             // 
             // wftTxt
             // 
-            wftTxt.Location = new Point(116, 370);
-            wftTxt.Margin = new Padding(3, 4, 3, 4);
+            wftTxt.Location = new Point(102, 278);
             wftTxt.Name = "wftTxt";
-            wftTxt.Size = new Size(558, 27);
+            wftTxt.Size = new Size(489, 23);
             wftTxt.TabIndex = 17;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(-2, 369);
+            label4.Location = new Point(-2, 277);
             label4.Name = "label4";
-            label4.Size = new Size(101, 20);
+            label4.Size = new Size(81, 15);
             label4.TabIndex = 18;
             label4.Text = "Texture (*.wft)";
             // 
             // selectWtd
             // 
-            selectWtd.Location = new Point(685, 420);
-            selectWtd.Margin = new Padding(3, 4, 3, 4);
+            selectWtd.Location = new Point(599, 315);
             selectWtd.Name = "selectWtd";
-            selectWtd.Size = new Size(84, 28);
+            selectWtd.Size = new Size(74, 21);
             selectWtd.TabIndex = 19;
             selectWtd.Text = "Select";
             selectWtd.UseVisualStyleBackColor = true;
@@ -173,44 +165,43 @@
             // 
             // wtdTxt
             // 
-            wtdTxt.Location = new Point(116, 420);
-            wtdTxt.Margin = new Padding(3, 4, 3, 4);
+            wtdTxt.Location = new Point(102, 315);
             wtdTxt.Name = "wtdTxt";
-            wtdTxt.Size = new Size(558, 27);
+            wtdTxt.Size = new Size(489, 23);
             wtdTxt.TabIndex = 20;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(-2, 420);
+            label5.Location = new Point(-2, 315);
             label5.Name = "label5";
-            label5.Size = new Size(105, 20);
+            label5.Size = new Size(84, 15);
             label5.TabIndex = 21;
             label5.Text = "Texture (*.wtd)";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(-2, 314);
+            label6.Location = new Point(-2, 236);
             label6.Name = "label6";
-            label6.Size = new Size(93, 20);
+            label6.Size = new Size(73, 15);
             label6.TabIndex = 24;
             label6.Text = "Carcols Data";
             // 
             // carcolsTxt
             // 
-            carcolsTxt.Location = new Point(116, 314);
-            carcolsTxt.Margin = new Padding(3, 4, 3, 4);
+            carcolsTxt.Location = new Point(102, 236);
             carcolsTxt.Name = "carcolsTxt";
-            carcolsTxt.Size = new Size(558, 27);
+            carcolsTxt.Size = new Size(489, 23);
             carcolsTxt.TabIndex = 23;
             // 
             // checkCars3
             // 
             checkCars3.AutoSize = true;
-            checkCars3.Location = new Point(680, 295);
+            checkCars3.Location = new Point(595, 221);
+            checkCars3.Margin = new Padding(3, 2, 3, 2);
             checkCars3.Name = "checkCars3";
-            checkCars3.Size = new Size(65, 24);
+            checkCars3.Size = new Size(53, 19);
             checkCars3.TabIndex = 25;
             checkCars3.Text = "cars3";
             checkCars3.UseVisualStyleBackColor = true;
@@ -219,9 +210,10 @@
             // checkCars4
             // 
             checkCars4.AutoSize = true;
-            checkCars4.Location = new Point(680, 325);
+            checkCars4.Location = new Point(595, 244);
+            checkCars4.Margin = new Padding(3, 2, 3, 2);
             checkCars4.Name = "checkCars4";
-            checkCars4.Size = new Size(65, 24);
+            checkCars4.Size = new Size(53, 19);
             checkCars4.TabIndex = 26;
             checkCars4.Text = "cars4";
             checkCars4.UseVisualStyleBackColor = true;
@@ -229,23 +221,22 @@
             // 
             // installBtn
             // 
-            installBtn.Location = new Point(318, 491);
-            installBtn.Margin = new Padding(3, 4, 3, 4);
+            installBtn.Enabled = false;
+            installBtn.Location = new Point(278, 368);
             installBtn.Name = "installBtn";
-            installBtn.Size = new Size(140, 58);
+            installBtn.Size = new Size(122, 44);
             installBtn.TabIndex = 22;
             installBtn.Text = "Install";
             installBtn.UseVisualStyleBackColor = true;
             installBtn.Click += button4_Click;
-            installBtn.Enabled = false;
             // 
             // ModInstallerByAlaaDLord
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 562);
+            ClientSize = new Size(700, 422);
             Controls.Add(checkCars4);
             Controls.Add(checkCars3);
             Controls.Add(label6);
@@ -269,7 +260,6 @@
             DoubleBuffered = true;
             HelpButton = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 4, 3, 4);
             Name = "ModInstallerByAlaaDLord";
             Text = "Mod Installer By AlaaDLord";
             ResumeLayout(false);

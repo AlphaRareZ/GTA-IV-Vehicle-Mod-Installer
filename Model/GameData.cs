@@ -1,6 +1,6 @@
 namespace C__MOD_INSTALLER.Model;
 
-public class GameData
+public class GameVehicleData
 {
     public string RetrieveVehicleData(string vehicleName)
     {
@@ -8,12 +8,8 @@ public class GameData
         {
             using StreamReader sr = new(Path.Combine(ModInstaller.GetGameDir(), @"common\data\vehicles.ide"));
             while (sr.ReadLine()! is { } line)
-            {
                 if (line.StartsWith(vehicleName))
-                {
                     return line;
-                }
-            }
         }
         catch (Exception e)
         {

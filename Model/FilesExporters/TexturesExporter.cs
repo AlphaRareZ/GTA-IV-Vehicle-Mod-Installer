@@ -1,26 +1,25 @@
-namespace C__MOD_INSTALLER.Model.FilesExporters
+namespace C__MOD_INSTALLER.Model.FilesExporters;
+
+internal class TexturesExporter(Vehicle vehicle, string modLoaderDir) : IExporter
 {
-    internal class TexturesExporter(Vehicle vehicle, string modLoaderDir) : IExporter
+    public bool Export()
     {
-        public bool Export()
+        try
         {
-            try
-            {
-                File.Copy(vehicle.GetWftDir(), Path.Combine(modLoaderDir, $"{vehicle.GetVehicleName()}.wft"));
-                File.Copy(vehicle.GetWtdDir(), Path.Combine(modLoaderDir, $"{vehicle.GetVehicleName()}.wtd"));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return false;
-            }
-
-            return true;
+            File.Copy(vehicle._wftDir, Path.Combine(modLoaderDir, $"{vehicle._vehicleName}.wft"));
+            File.Copy(vehicle._wtdDir, Path.Combine(modLoaderDir, $"{vehicle._vehicleName}.wtd"));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            return false;
         }
 
-        public bool CanExport()
-        {
-            return File.Exists(vehicle.GetWftDir()) && File.Exists(vehicle.GetWtdDir());
-        }
+        return true;
+    }
+
+    public bool CanExport()
+    {
+        return File.Exists(vehicle._wftDir) && File.Exists(vehicle._wtdDir);
     }
 }

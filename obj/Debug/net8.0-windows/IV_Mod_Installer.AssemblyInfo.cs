@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IV_Mod_Installer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+536cadc9036b32753e7666fc79833a0d9a829903")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf17f888e86afb8d96360be074fec361f94baa10")]
 [assembly: System.Reflection.AssemblyProductAttribute("IV_Mod_Installer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IV_Mod_Installer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,28 +1,25 @@
-namespace C__MOD_INSTALLER.Model.FilesExporters
-{
-    internal class HandlingDataExporter(Vehicle vehicle, string modLoaderDir) : IExporter
-    {
-        public bool Export()
-        {
-            var handlingDataExists = vehicle.GetHandlingData() != null;
-            if (!handlingDataExists) return false;
+namespace C__MOD_INSTALLER.Model.FilesExporters;
 
-            var handlingDatDir = modLoaderDir + @"\handling.dat";
-            if (!File.Exists(handlingDatDir) && handlingDataExists)
+internal class HandlingDataExporter(Vehicle vehicle, string modLoaderDir) : IExporter
+{
+    public bool Export()
+    {
+        var handlingDataExists = vehicle._handlingData != null;
+        if (!handlingDataExists) return false;
+
+        var handlingDatDir = modLoaderDir + @"\handling.dat";
+        if (!File.Exists(handlingDatDir) && handlingDataExists)
+            using (File.Create(handlingDatDir))
             {
-                using (File.Create(handlingDatDir))
-                {
-                    // nothing
-                }
+                // nothing
             }
 
-            ModExporter.AddDataIntoFiles(vehicle.GetHandlingData(), ' ', handlingDatDir, "cars\n");
-            return true;
-        }
+        ModExporter.AddDataIntoFiles(vehicle._handlingData, ' ', handlingDatDir, "cars\n");
+        return true;
+    }
 
-        public bool CanExport()
-        {
-            return vehicle.GetHandlingData() != null;
-        }
+    public bool CanExport()
+    {
+        return vehicle._handlingData != null;
     }
 }

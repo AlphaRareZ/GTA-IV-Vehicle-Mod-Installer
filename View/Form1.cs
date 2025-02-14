@@ -1,63 +1,71 @@
-﻿using System;
-using System.Runtime.CompilerServices;
-using System.Windows.Forms;
-using C__MOD_INSTALLER.Controller;
+﻿using C__MOD_INSTALLER.Controller;
 
-namespace ModInstaller
+namespace ModInstaller;
+
+public partial class ModInstallerByAlaaDLord : Form
 {
-    public partial class ModInstallerByAlaaDLord : Form
+    public ModInstallerByAlaaDLord()
     {
-        public ModInstallerByAlaaDLord()
-        {
-            _controller = new Controller(this);
-            InitializeComponent();
-        }
+        Controller controller = new();
+        InitializeComponent();
+        GameDirChanged += controller.GameDirTextChanged;
+        InstallButtonClicked += controller.InstallPressed;
+    }
 
-        private readonly Controller _controller;
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
-            folderBrowserDialog.ShowDialog();
-            gameDirTxt.Text = folderBrowserDialog.SelectedPath;
-        }
+    private event EventHandler<GameDirChangedArgs> GameDirChanged;
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "WFT Files (*.wft)|*.wft";
-            openFileDialog.ShowDialog();
-            wftTxt.Text = openFileDialog.FileName;
-        }
+    private event EventHandler<VehicleArgs> InstallButtonClicked;
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "WTD Files(*.wtd) | *.wtd";
-            openFileDialog.ShowDialog();
-            wtdTxt.Text = openFileDialog.FileName;
-        }
+    // Select Button
+    private void button1_Click(object sender, EventArgs e)
+    {
+        var folderBrowserDialog = new FolderBrowserDialog();
+        folderBrowserDialog.ShowDialog();
+        gameDirTxt.Text = folderBrowserDialog.SelectedPath;
+    }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(_controller.InstallPressed() ? "Mod Installed Successfully" : "Something Went Wrong!");
-        }
+    // Select WFT Button
+    private void button2_Click(object sender, EventArgs e)
+    {
+        var openFileDialog = new OpenFileDialog();
+        openFileDialog.Filter = "WFT Files (*.wft)|*.wft";
+        openFileDialog.ShowDialog();
+        wftTxt.Text = openFileDialog.FileName;
+    }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e) //cars3
-        {
-            checkCars4.Enabled = !checkCars4.Enabled;
-        }
+    // Select WTD Button
+    private void button3_Click(object sender, EventArgs e)
+    {
+        var openFileDialog = new OpenFileDialog();
+        openFileDialog.Filter = "WTD Files(*.wtd) | *.wtd";
+        openFileDialog.ShowDialog();
+        wtdTxt.Text = openFileDialog.FileName;
+    }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e) //cars4
-        {
-            checkCars3.Enabled = !checkCars3.Enabled;
-        }
+    // Install Button
+    private void button4_Click(object sender, EventArgs e)
+    {
+        InstallButtonClicked?.Invoke(sender, new VehicleArgs(vehicleNameTxt.Text,
+            handlingTxt.Text,
+            vehicleDataTxt.Text,
+            carcolsTxt.Text,
+            wftTxt.Text,
+            wtdTxt.Text,
+            checkCars4.Checked == false));
+    }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            if (!_controller.GameDirectoryUpdated())
-            {
-                MessageBox.Show("Invalid GTA IV Directory!");
-            }
-        }
+    private void checkBox1_CheckedChanged(object sender, EventArgs e) //cars3
+    {
+        checkCars4.Enabled = !checkCars4.Enabled;
+    }
+
+    private void checkBox2_CheckedChanged(object sender, EventArgs e) //cars4
+    {
+        checkCars3.Enabled = !checkCars3.Enabled;
+    }
+
+    private void gameDirTxt_TextChanged(object sender, EventArgs e)
+    {
+        GameDirChanged?.Invoke(this, new GameDirChangedArgs(gameDirTxt.Text, installBtn));
     }
 }

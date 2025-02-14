@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|D:\\Career\\My GitHub\\GTA-IV-Vehicle-Mod-Installer\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|d:\\career\\my github\\gta-iv-vehicle-mod-installer\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{32A63EEE-30D0-4248-8C40-B91AA1F4611D}|IV_Mod_Installer.csproj|solutionrelative:view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -68,12 +68,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -84,7 +80,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T22:35:56.46Z"
+              "WhenOpened": "2025-02-14T22:35:56.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,7 +93,8 @@
               "RelativeToolTip": "Model\\DataParsing\\Splitter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T22:35:46.836Z"
+              "WhenOpened": "2025-02-14T22:35:46.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -110,6 +108,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T22:34:08.488Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -132,7 +134,8 @@
               "RelativeToolTip": "Model\\Vehicle.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:57:05.941Z"
+              "WhenOpened": "2024-06-23T23:57:05.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -144,7 +147,8 @@
               "RelativeToolTip": "Controller\\Controller.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAtwA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:23:28.496Z"
+              "WhenOpened": "2024-06-23T23:23:28.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -155,7 +159,8 @@
               "ToolTip": "D:\\Career\\My GitHub\\GTA-IV-Vehicle-Mod-Installer\\View\\Form1.cs [Design]",
               "RelativeToolTip": "View\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:17:54.119Z"
+              "WhenOpened": "2024-06-23T23:17:54.119Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -167,7 +172,8 @@
               "RelativeToolTip": "View\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:34:18.644Z"
+              "WhenOpened": "2024-06-23T23:34:18.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -179,7 +185,8 @@
               "RelativeToolTip": "View\\Form1.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAtwBAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:18:04.58Z"
+              "WhenOpened": "2024-06-23T23:18:04.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -191,7 +198,8 @@
               "RelativeToolTip": "Model\\GameData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:01:25.538Z"
+              "WhenOpened": "2024-06-24T00:01:25.538Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -239,7 +247,8 @@
               "RelativeToolTip": "Model\\ModInstaller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:02:04.112Z"
+              "WhenOpened": "2024-06-24T00:02:04.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

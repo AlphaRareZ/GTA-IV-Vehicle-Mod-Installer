@@ -1,35 +1,30 @@
-namespace C__MOD_INSTALLER.Controller;
-
 using C__MOD_INSTALLER.Model;
 using ModInstaller;
 
-public class Controller(ModInstallerByAlaaDLord mod)
-{
-    private readonly ModInstaller _modInstaller = new();
-    private ModInstallerByAlaaDLord _mod = mod;
+namespace C__MOD_INSTALLER.Controller;
 
-    public bool GameDirectoryUpdated()
+public class Controller
+{
+    // model
+    private readonly Model.ModInstaller _modInstaller = new();
+
+    public void InstallPressed(object? sender, VehicleArgs e)
     {
-        if (_modInstaller.ValidDirectory(_mod.gameDirTxt.Text))
-        {
-            _modInstaller.SetGameDir(_mod.gameDirTxt.Text);
-            _mod.installBtn.Enabled = true;
-            return true;
-        }
-        return false;
+        var vehicle = new Vehicle(e.VehicleName, e.handlingData, e.vehicleData, e.carcols, e.wft, e.wtd, e.cars3);
+        var installed = _modInstaller.Install(vehicle);
+        MessageBox.Show(installed ? @"Vehicle installed successfully!" : @"Vehicle installation failed!");
     }
 
-    public bool InstallPressed()
+    public void GameDirTextChanged(object? sender, GameDirChangedArgs e)
     {
-        Vehicle vehicle = new Vehicle(
-            _mod.vehicleNameTxt.Text,
-            _mod.handlingTxt.Text,
-            _mod.vehicleDataTxt.Text,
-            _mod.carcolsTxt.Text,
-            _mod.wftTxt.Text,
-            _mod.wtdTxt.Text,
-            _mod.checkCars4.Checked == false
-        );
-        return _modInstaller.Install(vehicle);
+        if (!_modInstaller.ValidDirectory(e.GameDir))
+        {
+            e.Button.Enabled = false;
+        }
+        else
+        {
+            _modInstaller.SetGameDir(e.GameDir);
+            e.Button.Enabled = true;
+        }
     }
 }

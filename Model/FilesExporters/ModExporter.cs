@@ -4,7 +4,7 @@ public class ModExporter
 {
     public bool ExportMod(Vehicle vehicle)
     {
-        var vehicleDirInModLoader = Path.Combine(ModInstaller.GetGameDir(), "modloader", vehicle.GetVehicleName());
+        var vehicleDirInModLoader = Path.Combine(ModInstaller.GetGameDir(), "modloader", vehicle._vehicleName);
 
         IExporter texturesExporter = new TexturesExporter(vehicle, vehicleDirInModLoader);
         IExporter vehicleDataExporter = new VehicleDataExporter(vehicle, vehicleDirInModLoader);
@@ -13,10 +13,7 @@ public class ModExporter
 
         if (!(texturesExporter.CanExport() && vehicleDataExporter.CanExport())) return false;
 
-        if (!Directory.Exists(vehicleDirInModLoader))
-        {
-            Directory.CreateDirectory(vehicleDirInModLoader);
-        }
+        if (!Directory.Exists(vehicleDirInModLoader)) Directory.CreateDirectory(vehicleDirInModLoader);
 
 
         if (!vehicleDataExporter.Export())
@@ -49,7 +46,7 @@ public class ModExporter
     {
         try
         {
-            using StreamWriter sw = new StreamWriter(path, true);
+            using var sw = new StreamWriter(path, true);
             sw.Write(text);
             sw.Close();
         }

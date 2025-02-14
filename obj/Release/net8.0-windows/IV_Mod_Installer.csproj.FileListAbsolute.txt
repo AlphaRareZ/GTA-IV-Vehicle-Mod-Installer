@@ -16,3 +16,21 @@ D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Release\net8.0-windows\IV_
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Release\net8.0-windows\IV_Mod_Installer.genruntimeconfig.cache
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Release\net8.0-windows\ref\IV_Mod_Installer.dll
 D:\Projects\C#\GTAModLoaderForms\C#_MOD_INSTALLER\obj\Release\net8.0-windows\ModInstaller.ModInstallerByAlaaDLord.resources
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\bin\Release\net8.0-windows\IV_Mod_Installer.exe
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\bin\Release\net8.0-windows\IV_Mod_Installer.deps.json
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\bin\Release\net8.0-windows\IV_Mod_Installer.runtimeconfig.json
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\bin\Release\net8.0-windows\IV_Mod_Installer.dll
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\bin\Release\net8.0-windows\IV_Mod_Installer.pdb
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\C__MOD_INSTALLER.Properties.Resources.resources
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\ModInstaller.ModInstallerByAlaaDLord.resources
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.csproj.GenerateResource.cache
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.AssemblyInfoInputs.cache
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.AssemblyInfo.cs
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.csproj.CoreCompileInputs.cache
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.sourcelink.json
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.dll
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\refint\IV_Mod_Installer.dll
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.pdb
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\IV_Mod_Installer.genruntimeconfig.cache
+D:\Career\My GitHub\GTA-IV-Vehicle-Mod-Installer\obj\Release\net8.0-windows\ref\IV_Mod_Installer.dll

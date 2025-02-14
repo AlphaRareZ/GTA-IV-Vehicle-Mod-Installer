@@ -2,11 +2,16 @@
 
 ## Description
 
-The Vehicle Mod Installer for GTA IV is a comprehensive tool designed to simplify the process of adding and managing custom vehicles in Grand Theft Auto IV. This installer ensures compatibility and stability, requiring the use of essential patches and tools developed by the GTA modding community. Follow the instructions below to set up the necessary components for a seamless modding experience.
+The Vehicle Mod Installer for GTA IV is a comprehensive tool designed to simplify the process of adding and managing
+custom vehicles in Grand Theft Auto IV. This installer ensures compatibility and stability, requiring the use of
+essential patches and tools developed by the GTA modding community. Follow the instructions below to set up the
+necessary components for a seamless modding experience.
 
 ## ScreenShots
+
 ![Mod Installer By AlaaDLord](screenshots/1.png)
 ![In Game NissanGTR After Installation](screenshots/2.png)
+
 ## Installation Guide
 
 ### Step 1: Install ZolikaPatch
@@ -18,14 +23,16 @@ The Vehicle Mod Installer for GTA IV is a comprehensive tool designed to simplif
 
 ### Step 2: Install Zolika1351's Trainer/Mod Menu
 
-1. Visit the [Zolika1351's Trainer/Mod Menu forum thread](https://gtaforums.com/topic/896795-1000-1080-zolika1351s-trainermod-menu-rewritten/).
+1. Visit
+   the [Zolika1351's Trainer/Mod Menu forum thread](https://gtaforums.com/topic/896795-1000-1080-zolika1351s-trainermod-menu-rewritten/).
 2. Download the latest version of the Trainer/Mod Menu.
 3. Extract the contents of the downloaded archive.
 4. Copy the files to your GTA IV installation directory, replacing any existing files.
 
 ### Step 3: Install IV Tweaker (Modloader and Limit Adjuster)
 
-1. Visit the [IV Tweaker forum thread](https://gtaforums.com/topic/979531-iv-tweaker-modloader-limit-adjuster-for-gta-iv).
+1. Visit
+   the [IV Tweaker forum thread](https://gtaforums.com/topic/979531-iv-tweaker-modloader-limit-adjuster-for-gta-iv).
 2. Download the latest version of IV Tweaker.
 3. Extract the contents of the downloaded archive.
 4. Copy the files to your GTA IV installation directory, ensuring that all files are placed correctly.

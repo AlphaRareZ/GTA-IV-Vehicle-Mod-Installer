@@ -1,41 +1,35 @@
 using C__MOD_INSTALLER.Model.FilesExporters;
 
-namespace C__MOD_INSTALLER.Model
+namespace C__MOD_INSTALLER.Model;
+
+public class ModInstaller
 {
-    public class ModInstaller
+    private static string? _gameDirectory;
+    private readonly ModExporter _modExporter = new();
+
+
+    public bool Install(Vehicle vehicle)
     {
-        private static string? _gameDirectory;
-        private readonly ModExporter _modExporter = new();
+        return _modExporter.ExportMod(vehicle);
+    }
 
 
-        public bool Install(Vehicle vehicle)
-        {
-            return _modExporter.ExportMod(vehicle);
-        }
+    internal bool ValidDirectory(string location)
+    {
+        var handling = File.Exists(Path.Combine(location, @"common\data\handling.dat"));
+        var vehicles = File.Exists(Path.Combine(location, @"common\data\vehicles.ide"));
+        var carcols = File.Exists(Path.Combine(location, @"common\data\carcols.dat"));
+        var modLoader = Directory.Exists(Path.Combine(location, @"modloader"));
+        return handling && vehicles && carcols && modLoader;
+    }
 
+    public void SetGameDir(string directory)
+    {
+        _gameDirectory = directory;
+    }
 
-        internal bool ValidDirectory(string location)
-        {
-            bool handling = File.Exists(Path.Combine(location, @"common\data\handling.dat"));
-            bool vehicles = File.Exists(Path.Combine(location, @"common\data\vehicles.ide"));
-            bool carcols = File.Exists(Path.Combine(location, @"common\data\carcols.dat"));
-            return handling && vehicles && carcols;
-        }
-
-        public bool SetGameDir(string directory)
-        {
-            if (ValidDirectory(directory))
-            {
-                _gameDirectory = directory;
-                return true;
-            }
-
-            return false;
-        }
-
-        public static string GetGameDir()
-        {
-            return _gameDirectory!;
-        }
+    public static string GetGameDir()
+    {
+        return _gameDirectory!;
     }
 }
