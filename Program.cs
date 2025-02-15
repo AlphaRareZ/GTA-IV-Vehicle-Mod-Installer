@@ -1,4 +1,6 @@
-namespace ModInstaller;
+using C__MOD_INSTALLER.View;
+
+namespace C__MOD_INSTALLER;
 
 internal static class Program
 {

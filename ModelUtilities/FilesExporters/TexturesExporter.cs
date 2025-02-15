@@ -1,4 +1,6 @@
-namespace C__MOD_INSTALLER.Model.FilesExporters;
+using C__MOD_INSTALLER.Model;
+
+namespace C__MOD_INSTALLER.ModelUtilities.FilesExporters;
 
 internal class TexturesExporter(Vehicle vehicle, string modLoaderDir) : IExporter
 {
@@ -6,8 +8,10 @@ internal class TexturesExporter(Vehicle vehicle, string modLoaderDir) : IExporte
     {
         try
         {
-            File.Copy(vehicle._wftDir, Path.Combine(modLoaderDir, $"{vehicle._vehicleName}.wft"));
-            File.Copy(vehicle._wtdDir, Path.Combine(modLoaderDir, $"{vehicle._vehicleName}.wtd"));
+            if (vehicle._wftDir != null)
+                File.Copy(vehicle._wftDir, Path.Combine(modLoaderDir, $"{vehicle._vehicleName}.wft"));
+            if (vehicle._wtdDir != null)
+                File.Copy(vehicle._wtdDir, Path.Combine(modLoaderDir, $"{vehicle._vehicleName}.wtd"));
         }
         catch (Exception e)
         {

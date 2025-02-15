@@ -1,4 +1,4 @@
-namespace C__MOD_INSTALLER.Model;
+namespace C__MOD_INSTALLER.ModelUtilities.DataParsing;
 
 public static class Splitter
 {

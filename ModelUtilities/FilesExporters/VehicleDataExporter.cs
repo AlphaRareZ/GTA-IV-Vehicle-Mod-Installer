@@ -1,4 +1,6 @@
-namespace C__MOD_INSTALLER.Model.FilesExporters;
+using C__MOD_INSTALLER.Model;
+
+namespace C__MOD_INSTALLER.ModelUtilities.FilesExporters;
 
 internal class VehicleDataExporter(Vehicle vehicle, string modLoaderDir) : IExporter
 {

@@ -1,10 +1,12 @@
-namespace C__MOD_INSTALLER.Model.FilesExporters;
+using C__MOD_INSTALLER.Model;
+
+namespace C__MOD_INSTALLER.ModelUtilities.FilesExporters;
 
 public class ModExporter
 {
     public bool ExportMod(Vehicle vehicle)
     {
-        var vehicleDirInModLoader = Path.Combine(ModInstaller.GetGameDir(), "modloader", vehicle._vehicleName);
+        var vehicleDirInModLoader = Path.Combine(Model.ModInstaller.GetGameDir(), "modloader", vehicle._vehicleName);
 
         IExporter texturesExporter = new TexturesExporter(vehicle, vehicleDirInModLoader);
         IExporter vehicleDataExporter = new VehicleDataExporter(vehicle, vehicleDirInModLoader);

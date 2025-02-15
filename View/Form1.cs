@@ -1,12 +1,12 @@
-﻿using C__MOD_INSTALLER.Controller;
+﻿using C__MOD_INSTALLER.ControllerEventArgs;
 
-namespace ModInstaller;
+namespace C__MOD_INSTALLER.View;
 
 public partial class ModInstallerByAlaaDLord : Form
 {
     public ModInstallerByAlaaDLord()
     {
-        Controller controller = new();
+        Controller.Controller controller = new();
         InitializeComponent();
         GameDirChanged += controller.GameDirTextChanged;
         InstallButtonClicked += controller.InstallPressed;

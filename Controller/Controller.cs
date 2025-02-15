@@ -1,5 +1,5 @@
+using C__MOD_INSTALLER.ControllerEventArgs;
 using C__MOD_INSTALLER.Model;
-using ModInstaller;
 
 namespace C__MOD_INSTALLER.Controller;
 

@@ -1,4 +1,4 @@
-﻿namespace C__MOD_INSTALLER.Model.FilesExporters;
+﻿namespace C__MOD_INSTALLER.ModelUtilities.FilesExporters;
 
 public interface IExporter
 {

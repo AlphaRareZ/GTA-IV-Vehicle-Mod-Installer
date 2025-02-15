@@ -1,3 +1,5 @@
+using Splitter = C__MOD_INSTALLER.ModelUtilities.DataParsing.Splitter;
+
 namespace C__MOD_INSTALLER.Model;
 
 public class Vehicle

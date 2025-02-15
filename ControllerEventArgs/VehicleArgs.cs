@@ -1,4 +1,4 @@
-﻿namespace C__MOD_INSTALLER.Controller;
+﻿namespace C__MOD_INSTALLER.ControllerEventArgs;
 
 public class VehicleArgs(
     string vehicleName,

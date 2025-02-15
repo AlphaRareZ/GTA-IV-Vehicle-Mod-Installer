@@ -1,4 +1,4 @@
-﻿namespace ModInstaller
+﻿namespace C__MOD_INSTALLER.View
 {
     partial class ModInstallerByAlaaDLord
     {
